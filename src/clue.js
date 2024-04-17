@@ -113,7 +113,7 @@ function revealMystery(envolope) {
     let lname = envolope.suspect.lastName;
     let room = envolope.room.name;
     let weapon = envolope.weapon.name
-    return `${fname} ${lname} killed Mr. Bobby using the ${weapon} in the ${room}!`;
+    return `${fname} ${lname} killed Mr. Boddy using the ${weapon} in the ${room}!`;
 }
 let envolope = pickMystery();
 console.log(revealMystery(envolope));

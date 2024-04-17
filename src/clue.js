@@ -108,13 +108,13 @@ console.log(pickMystery());
 
 // ITERATION 3
 
-function revealMystery(envolope) {
-    let fname = envolope.suspect.firstName;
-    let lname = envolope.suspect.lastName;
-    let room = envolope.room.name;
-    let weapon = envolope.weapon.name
+function revealMystery(envelope) {
+    let fname = envelope.suspect.firstName;
+    let lname = envelope.suspect.lastName;
+    let room = envelope.room.name;
+    let weapon = envelope.weapon.name
     return `${fname} ${lname} killed Mr. Boddy using the ${weapon} in the ${room}!`;
 }
-let envolope = pickMystery();
-console.log(revealMystery(envolope));
+let envelope = pickMystery();
+console.log(revealMystery(envelope));
 
